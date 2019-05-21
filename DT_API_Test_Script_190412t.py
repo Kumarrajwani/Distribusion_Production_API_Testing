@@ -83,7 +83,7 @@ for(k=0;k<Departure_time.length; k++ ){
   pm.sendRequest({ 
     url: 'https://api.distribusion.com/retailers/v4/connections/vacancy?marketing_carrier=' +Marketing_carrier[k] +'&departure_station='+departure_station+'&arrival_station='+arrival_station+'&departure_time=' +Departure_time[k]+'&arrival_time=' + Arrival_time[k] +'&currency='+currency+'&passengers[][pax]='+pax+'&passengers[][type]=' + CF_pax,
     method: 'GET',
-    header: 'Api-Key:8mdFIDMXn73CVgwwiAbWssV8Y8Fscfe5R5VMqVkq',
+    header: 'Api-Key:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     
     },function(err, response){
          myNumber++;
